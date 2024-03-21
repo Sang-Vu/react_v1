@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.scss';
 import Demo from './Demo/DemoComponent';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -9,6 +11,17 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Demo />
       </header>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }

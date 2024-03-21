@@ -1,0 +1,16 @@
+.input-edit{
+
+}
+
+.input-show{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+.list-element{
+border-bottom: 1px solid #959090;
+padding: 10px;
+&:first-child{
+    border-top: 1px solid #959090;
+}
+}
